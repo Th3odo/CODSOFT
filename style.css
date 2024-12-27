@@ -1,0 +1,330 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+h2 {
+    color: #ffd700; /* Gold heading */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #ffd700; /* Gold */
+    color: #000; /* Black text */
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3); /* Gold shadow */
+}
+
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* About Section */
+.about-content {
+    display: flex;
+    flex-direction: row-reverse; /* Image on the right */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    background-color: #222; /* Dark gray background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2); /* Gold shadow */
+    text-align: left;
+}
+
+.profile-img {
+    width: 220px;
+    border-radius: 50%;
+    border: 4px solid #ffd700; /* Gold border */
+    margin-left: 30px; /* Space between image and text */
+}
+
+.about-text {
+    flex: 1; /* Take up remaining space */
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list li {
+    background-color: #ffd700; /* Gold */
+    color: #000; /* Black text */
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.2s ease;
+}
+
+.skills-list li:hover {
+    transform: scale(1.05);
+}
+
+/* Projects Section */
+.project {
+    background-color: #222; /* Dark gray */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.2); /* Gold shadow */
+    margin: 20px auto;
+    max-width: 500px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ffd700; /* Gold border */
+}
+
+.project h3 {
+    color: #ffd700; /* Gold */
+    margin-bottom: 10px;
+}
+
+/* Resume Section */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ffd700; /* Gold */
+    color: #000; /* Black text */
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ccac00; /* Darker gold */
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #222; /* Dark background */
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2); /* Gold shadow */
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Contact Information */
+.contact-info {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #ffd700; /* Gold link color */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Image */
+.contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img {
+    width: 100%;
+    max-width: 250px; /* Limit image size */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* QR Code Image */
+.qr-code {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-img {
+    width: 100%;
+    max-width: 150px; /* Adjust QR code image size */
+    border-radius: 10px;
+}
+
+/* Contact Information */
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #ffd700; /* Gold link color */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Image */
+.contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img {
+    width: 50%;
+    max-width: 150px; /* Limit image size */
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+/* Footer */
+footer {
+    background-color: #111; /* Darker black */
+    color: #ffd700; /* Gold text */
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+/* Certifications Section */
+#certifications {
+    padding: 40px 20px;
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2); /* Gold shadow */
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+/* Certification List - Grid Layout */
+.cert-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* 3 columns */
+    gap: 30px;
+    justify-items: center;
+}
+
+/* Certification Link Styling */
+.cert-link {
+    text-decoration: none;
+    color: inherit; /* Keep the original text color */
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-link:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5); /* Enhanced gold shadow */
+}
+
+/* Individual Certificate Item */
+.cert-item {
+    background-color: #111; /* Slightly darker background for each item */
+    padding: 20px;
+    border: 2px solid #ffd700; /* Gold border */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(255, 215, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+}
+
+/* Certificate Logo */
+.cert-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    background-color: #fff; /* White background for the logo */
+    border-radius: 50%; /* Circular logos */
+    padding: 5px;
+}
+
+/* Certificate Title */
+.cert-item h3 {
+    color: #ffd700; /* Gold heading */
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+}
+
+/* Certificate Details */
+.cert-item p {
+    color: #ccc; /* Light gray text for details */
+    font-size: 0.9rem;
+    margin: 0;
+}
